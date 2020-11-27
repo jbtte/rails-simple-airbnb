@@ -1,0 +1,36 @@
+// Import page-specific CSS files here.
+@import "home";
+
+.card{
+  margin-bottom: 30px;
+  width: 22rem;
+  border-radius: 5px !important;
+}
+
+.card-body{
+  background-color: #f5f2f2;
+}
+
+.blue a{
+  color: #007BFF;
+}
+
+.yellow a{
+  color: #FFC107;
+}
+
+.red a{
+  color: #DC3545;
+}
+
+.links{
+  margin-left:10px;
+}
+
+.links a{
+  margin: 0px 10px;
+}
+
+.icons p{
+  margin-right: 10px;
+}
