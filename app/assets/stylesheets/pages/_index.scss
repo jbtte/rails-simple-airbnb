@@ -2,9 +2,13 @@
 @import "home";
 
 .card{
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   width: 22rem;
   border-radius: 5px !important;
+}
+
+.card-flats {
+  margin-bottom: 30px;
 }
 
 .card-body{

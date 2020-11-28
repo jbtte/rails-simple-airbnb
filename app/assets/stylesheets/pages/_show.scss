@@ -1,0 +1,69 @@
+.btn {
+  width: 100%;
+}
+
+.banner{
+  height: 350px;
+  background-image: url('https://picsum.photos/id/1051/1500');
+}
+
+.card {
+  background-color: #f5f2f2;
+  padding: 10px 0px 20px 15px;
+}
+
+.card-info{
+  position: relative;
+  top: -80px;
+}
+
+.name-description{
+  flex-grow: 3;
+  padding: 0px 10px 0px 30px;
+  margin-bottom: 10px;
+}
+
+.name-description > .card {
+  width: 100%;
+}
+
+.book-details {
+  padding: 0px 10px 0px 10px;
+}
+
+.flat-description {
+  height: 280px;
+}
+
+.flat-details{
+  padding: 0px 15px;
+}
+.share-title {
+  flex-grow: 4;
+}
+
+.icon-size, .fab {
+  font-size: 18px;
+}
+
+.social{
+  padding: 0px 15px;
+}
+
+.input-group-addon, .input-group-btn {
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.input-group-addon {
+    padding: .5rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #495057;
+    text-align: center;
+    background-color: #e9ecef;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+}

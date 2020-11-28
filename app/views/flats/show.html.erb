@@ -1,3 +1,52 @@
-<div class="banner">
-  <img src="src="https://picsum.photos/id/<%= rand(1040..1060) %>/1200" alt="">
+<div class="banner">.
+</div>
+<div class="container">
+  <div class="card-info d-flex justify-content-between">
+    <div class="name-description">
+      <div class="card flat-name">
+        <h1><strong><%= @flat.name %></strong></h1>
+        <p><%= @flat.address %></p>
+      </div>
+      <div class="card flat-description">
+        <h3>A bit more about this flat... </h3>
+        <p><%= @flat.description %></p>
+      </div>
+    </div>
+    <div class="book-details">
+      <div class="card flat-book pt-3">
+        <h4 class="mb-2"><strong>Book this place!</strong></h4>
+        <form action="#">
+          <div class="form-group">
+            <div class="col-12">
+              <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                <span class="input-group-addon" id="basic-addon1">From:</span>
+                <input type="date" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+              </div>
+
+              <div class="input-group mb-2 mr-sm-2 mb-sm-0 mt-2">
+                <span class="input-group-addon" id="basic-addon1">To:</span>
+                <input type="date" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+              </div>
+
+              <button type="submit" class="btn btn-success mt-2">Book</button>
+            </div>
+          </div>
+        </form>
+
+      </div>
+      <div class="card flat-details">
+        <h3 class="pt-3">Details</h3>
+        <div class="d-flex">
+          <p class="mr-3 icon-size"><i class="fas fa-user-friends"></i> <%= @flat.number_of_guests %></p>
+          <p class="mr-3 icon-size"><i class="fas fa-euro-sign"></i> <%= @flat.price_per_night %></p>
+        </div>
+      </div>
+      <div class="card social d-flex flex-row align-items-baseline">
+        <p class="share-title pt-3">Share: </p>
+        <p class="mr-3 icon-size"><i class="fab fa-facebook-square"></i></p>
+        <p class="mr-3 icon-size"><i class="fab fa-instagram-square"></i></p>
+        <p class="mr-3 icon-size"><i class="fab fa-twitter-square"></i></p>
+      </div>
+    </div>
+  </div>
 </div>

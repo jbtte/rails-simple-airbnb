@@ -1,11 +1,11 @@
 <div class="container">
   <div>
-    <h1>All our flats</h1>
+    <h1 class="pt-4">All our flats</h1>
     <p>All our <%= @flats.count %> flats</p>
   </div>
   <div class="d-flex justify-content-between align-content-between flex-wrap">
     <% @flats.each do |flat| %>
-    <div class="card">
+    <div class="card card-flats">
       <img class="card-img-top" src="https://picsum.photos/id/<%= rand(1040..1060) %>/286/180" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title"><%= flat.name %></h5>
